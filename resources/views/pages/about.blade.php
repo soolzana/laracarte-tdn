@@ -3,7 +3,7 @@
 
 @section('content')
   <div class="container">
-  	<h2>what is laracarte ?</h2>
+  	<h2>what is {{ config('app.name') }} ?</h2>
   	<p>Laracarte is a clone app of <a href="https://laramap.com" target="_blank">Laramap.com</a></p>
 
 
@@ -21,7 +21,7 @@
   <hr>
 
   <h2>what is Laramap ?</h2>
-  <P>laramap is the website by whitch Lracarte was inspired :).</P>
+  <P>laramap is the website by whitch {{ config('app.name') }} was inspired :).</P>
 
   <p>More info here.</p>
 
